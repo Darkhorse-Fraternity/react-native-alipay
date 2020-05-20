@@ -29,6 +29,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    compile files('libs/alipaySdk-20180403.jar')
+    implementation 'com.facebook.react:react-native:+'
+    implementation files('libs/alipaySdk-20180403.jar')
 }
