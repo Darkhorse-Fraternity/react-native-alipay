@@ -53,6 +53,12 @@ static NSString *const kOpenURLNotification = @"RCTOpenURLNotification";
 {
     return dispatch_get_main_queue();
 }
+
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
+
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(authWithInfo:(NSString *)infoStr
